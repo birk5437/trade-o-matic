@@ -6,3 +6,4 @@ gem "haml", "~> 3.0.18"
 gem "activesupport", "~> 2.3.14"
 gem "authlogic"
 gem "nifty-generators", :group => :development
+gem "formtastic", "~> 1.1.0"

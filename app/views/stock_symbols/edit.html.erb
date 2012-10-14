@@ -1,0 +1,12 @@
+<h1>Editing stock_symbol</h1>
+
+<% form_for(@stock_symbol) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @stock_symbol %> |
+<%= link_to 'Back', stock_symbols_path %>

@@ -1,0 +1,10 @@
+<% form_for(@stock_symbol) do |f| %>
+  <%= f.error_messages %>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+    <%= f.label :letters %><br />
+    <%= f.text_field :letters %>
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
